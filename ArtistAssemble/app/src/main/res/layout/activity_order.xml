@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".activity.OrderActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgArtworkThumbnail"
+            android:layout_width="290dp"
+            android:layout_height="380dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/icon" />
+
+        <TextView
+            android:id="@+id/txtArtworkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgArtworkThumbnail"
+            android:layout_marginLeft="60dp"
+            android:padding="8dp"
+            android:text="@string/artwork_name"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtArtistName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtArtworkName"
+            android:layout_marginLeft="60dp"
+            android:padding="8dp"
+            android:text="@string/artist_name"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtArtistName"
+            android:layout_marginLeft="60dp"
+            android:padding="8dp"
+            android:text="@string/price"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgArtworkThumbnail"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/txtArtworkName"
+            android:padding="4dp"
+            android:text="4.5"
+            android:textColor="#ffc828"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="Place Order"
+            android:textColor="#ffff"
+            android:textSize="19sp"
+            android:textStyle="bold"
+
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

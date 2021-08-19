@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Artists Assemble</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favorites">Favorites</string>
+    <string name="faqs">FAQs</string>
+    <string name="order">Order History</string>
+    <string name="logout">Log out</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="artwork_name">Title of Artwork</string>
+    <string name="artist_name">Name of Artist</string>
+    <string name="price">Price</string>
+    <string name="no_favorites">You do not have any favorites</string>
+    <string name="faq_answer_one">Artist Assemble is the brain child of Aditya, who is currently pursuing B.Tech, third year in Computer Science from UIET, KUK</string>
+    <string name="faq_answer_two">This app is developed to provide a specialized platform for the artists all around the globe, to showcase their unique talents and sell their wonderful artworks</string>
+    <string name="name">Aditya</string>
+    <string name="dummy_phone">+91-8295935601</string>
+    <string name="email">adityabhushan01@gmail.com</string>
+    <string name="address">#1021/3, Shanti Nagar</string>
+    <string name="faq_answer_three">This app was developed mainly as the Training Project of Aditya, who went Android App Development training during the summer vacations</string>
+    <string name="about">Artists Assemble provides a platform to all the artists all over the world to showcaswe their talent and to sell their precious artworks.The main obejctive of creating this genius app is to bring together budding artists and artlovers all over the world together at same place at same time.</string>
+    <string name="aboutapp">About App</string>
+    <string name="title_activity_success">Success</string>
+    <string name="SuccessText">Your Order has been successfully placed!</string>
+    <string name="mobile_number">Mobile Number (10 digits)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="enter_name">Name (Min. 3 characters)</string>
+    <string name="choose_password">Password (Min. 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registration">Register</string>
+    <string name="phone">Phone</string>
+    <string name="register_yourself"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="enter_mobile_forgot_password">Enter your registered mobile number and email below:</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="addressHome">Address</string>
+    <string name="preference_file_name">Artists Assemble preference file</string>
+    <string name="next">Next</string>
+
+
+</resources>
